@@ -1,0 +1,18 @@
+
+spec:
+ name: daytona-play
+ services:
+ - name: daytona-play
+   git:
+     branch: main
+     repo_clone_url: https://github.com/zmzlois/daytona-play
+    envs:
+    - key: URL
+      value: ${daytona-play.URL}
+      type: SECRET
+    - key: IDP_ID
+      scope: RUN_TIME
+    - key: IDP_SECRET
+      value: ${daytona-play.IDP_SECRET}
+ 
+ 
