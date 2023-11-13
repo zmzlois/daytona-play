@@ -1,4 +1,4 @@
-FROM amd64/debian:stable-slim AS builder
+FROM amd64/debian:bullseye AS builder
 
 COPY setup.sh /app/setup.sh
 
