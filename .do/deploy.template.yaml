@@ -5,7 +5,7 @@ spec:
  - name: daytona-play
    git:
      branch: main
-     repo_clone_url: https://github.com/zmzlois/daytona-play
+     repo_clone_url: https://github.com/zmzlois/daytona-play.git
     envs:
     - key: URL
       value: ${daytona-play.URL}
